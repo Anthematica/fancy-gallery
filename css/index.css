@@ -27,6 +27,16 @@ body{
 
 h4 {
     color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+h1 {
+    color: white;
+    position: fixed;
+    transform: translate(300px, 150px);
+    font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .images-container {
@@ -39,11 +49,15 @@ h4 {
 
 .next-button {
     position: fixed;
-    transform: translate(500px, 120px);
+    transform: translate(800px, 150px);
+    background-color: #E31244;
+    border: none;
+    padding: 16px;
+    border-radius: 30px;
+    color: white;
+
 }
 
 .image-item {
     border-radius: 40%;
-    margin-block-start: 20px;
-    margin-block-end: 20px;
 }
