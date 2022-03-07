@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+   width: 80%;
+   min-height: 80vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   justify-content: space-around;
+   background-color: black;
+}
+
+h4 {
+    color: white;
+}
+
+.images-container {
+    height: auto;
+    display: flex;
+    overflow-x: scroll;
+    position: relative;
+    gap: 50px;
+}
+
+.next-button {
+    position: fixed;
+    transform: translate(500px, 120px);
+}
+
+.image-item {
+    border-radius: 40%;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
